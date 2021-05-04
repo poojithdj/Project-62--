@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<h3>
+    <div style="position:sticky;top:center;z-index:99999; background-color:black;">
+
+        <div class="menu1" id="myNavbar1">
+            <span><a href="#home">Home</a></span>&nbsp;
+            <span><a href="#Grids">Grid view</a></span>&nbsp;
+            <span><a href="#slides">Slide view</a></span>&nbsp;
+            <span><a href="#contact">Contact</a></span>
+        </div>
+
+    </div>
+</h3>
+
+<body>
+
+    <div class="container">
+        
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img1" src="home.jfif" class="img-responsive">
+            </div>
+        </section>
+        <!>
+            <hr style="width: 100%;">
+        
+        
+        <section id="Grids">
+            <h2> Grid gallery</h2>
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img2" src="https://www.treehugger.com/thmb/4hjYcNF5SHmmFx2t-Gl84OQbqpw=/1000x562/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__07__blue_hydrangea-0750eb1868c7465790d3c7c3f1c5f7ca.jpg">
+                <img class="img2" src="https://www.thespruce.com/thmb/9wSFip9fQEtqRa0A05x6zOvW2FY=/2848x2848/smart/filters:no_upscale()/pictures-of-orange-flowers-4061768-hero-af9e809318964fbcae6e922aa3cc8182.JPG">
+                <img class="img2" src="https://hdwallpapers.cat/wallpaper/shine-of-cyan-flowers-papillon-floral-aqua-7KGu.jpg">
+                <img class="img2" src="https://www.aljazeera.com/wp-content/uploads/2021/02/roses.jpg?resize=770%2C513">
+                <br><br>
+            </div>
+            <div class="row">
+                <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRloLoezB1qz5fnq81mK8xLcjF0NXFFnbHbHQ&usqp=CAU">
+                <img class="img2" src="https://images.unsplash.com/photo-1557865560-ef9f22c71898?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80">
+                <img class="img2" src="https://www.ugaoo.com/knowledge-center/wp-content/uploads/2017/09/shutterstock_223679731-850x525.jpg">
+                <img class="img2" src="https://media.istockphoto.com/photos/background-of-gentle-white-flowers-roses-t-picture-id849783248?k=6&m=849783248&s=612x612&w=0&h=3IXJMY90u6dYX5J4kmvx-VFwuQh_IFcPmNA84YBEXDM=">
+            </div>
+        </section>
+        <br>
+        <br>
+        <hr style="width: 100%;">
+        
+        
+        <!-- Left and right controls -->
+        <section id="slides">
+            <h2>Sliding gallary</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                
+                
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                
+                <div class="carousel-inner">
+        
+                    <div class="item active">
+                        <img class="img-responsive" src="https://www.treehugger.com/thmb/4hjYcNF5SHmmFx2t-Gl84OQbqpw=/1000x562/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__07__blue_hydrangea-0750eb1868c7465790d3c7c3f1c5f7ca.jpg" alt="Blu flowers" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Blue flowers</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://www.thespruce.com/thmb/9wSFip9fQEtqRa0A05x6zOvW2FY=/2848x2848/smart/filters:no_upscale()/pictures-of-orange-flowers-4061768-hero-af9e809318964fbcae6e922aa3cc8182.JPG" alt="Orange flower" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Orange flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://hdwallpapers.cat/wallpaper/shine-of-cyan-flowers-papillon-floral-aqua-7KGu.jpg" alt="Cyan flowers" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Cyan flowers</h3>
+                            <p></p>
+                            </div>
+                        </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://www.aljazeera.com/wp-content/uploads/2021/02/roses.jpg?resize=770%2C513" alt="Red roses" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Red roses</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRloLoezB1qz5fnq81mK8xLcjF0NXFFnbHbHQ&usqp=CAU" alt="Purple flowers" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Purple flowers</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://images.unsplash.com/photo-1557865560-ef9f22c71898?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Pink tulip" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Pink tulip</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://www.ugaoo.com/knowledge-center/wp-content/uploads/2017/09/shutterstock_223679731-850x525.jpg" alt="White flowers" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>White flowers</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="https://media.istockphoto.com/photos/background-of-gentle-white-flowers-roses-t-picture-id849783248?k=6&m=849783248&s=612x612&w=0&h=3IXJMY90u6dYX5J4kmvx-VFwuQh_IFcPmNA84YBEXDM=" alt="White roses" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>White roses</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+    
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                
+                
+            </div>
+            
+        </section>
+        <hr style="width: 100%;">
+        
+        
+        <section id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+            <hr style="width: 100%;">
+            <div class="contact_1">
+                <a href="mailto:my@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+                </a>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
